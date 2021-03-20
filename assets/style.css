@@ -1,0 +1,45 @@
+:root{
+    --greyscale:rgb(190, 183, 183);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--greyscale);
+}
+
+.headie {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    color:maroon;
+}
+
+.headie p {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.snippet {
+    background: linear-gradient(maroon,firebrick);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 45px;
+    margin-top: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
+    flex: 1 0 100px;
+    align-items: stretch;
+
+
+}
+
+.snippet header {
+    margin-top: -60px;
+    border-style: solid;
+    background: linear-gradient(firebrick,maroon);
+    border-radius: 10px;
+}
